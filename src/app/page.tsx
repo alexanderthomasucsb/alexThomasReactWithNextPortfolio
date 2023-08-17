@@ -6,9 +6,6 @@ import {
   } from "react-icons/ai";
 import Image from "next/image"
 
-import cartoonPhoto from 'public/AIPhoto.jpg'
-import chessPhoto from 'public/PProjectSS_7:10:23.png'
-
 
 export default function Home() {
 
@@ -43,7 +40,7 @@ export default function Home() {
           </div>
 
           <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden">
-            <Image src={cartoonPhoto} alt="no image to show" layout="fill" objectFit="cover"/>
+            <Image src={'public/AIPhoto.jpg'} alt="no image to show" layout="fill" objectFit="cover"/>
           </div>
 
           <div className = "text-5xl flex justify-center gap-16 py-3 mt-20">
@@ -84,7 +81,7 @@ export default function Home() {
                    Chess Puzzle Generator
                  </h3>
                 
-                  <Image src={chessPhoto} alt="no image to show"  objectFit="cover"/>
+                  <Image src={'public/PProjectSS_7:10:23.png'} alt="no image to show"  objectFit="cover"/>
                   <iframe
                     width="560"
                     height="315"
@@ -98,7 +95,7 @@ export default function Home() {
                   
                 </div>
                 <p>
-                  Project 2 hello
+                  Project 2 
                 </p>
             </div>
           </div>
