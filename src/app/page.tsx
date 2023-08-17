@@ -38,7 +38,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-cyan-500 font-medium">Alexander Thomas</h2>
             <h3 className="text-2xl py-2">Student and Aspiring Software Engineer.</h3>
             <p className=" text-md py-5 leading-8 text-white">
-              3rd year computer science major at UCSB looking for professional oppurtunities to grow my skills
+              3rd year computer science major at UCSB looking for professional opportunities to grow my skills
             </p>
           </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
                   
                 </div>
                 <p>
-                  Project 2
+                  Project 2 hello
                 </p>
             </div>
           </div>
