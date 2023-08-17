@@ -12,6 +12,7 @@ module.exports = {
       },
       boxShadow:{
         'blue': '0 0 10px 4px rgba(59, 130, 246, 0.5)',
+        'orange': '0 0 10px 4px rgba(243,102, 8, 0.5)'
       }
     },
   },
