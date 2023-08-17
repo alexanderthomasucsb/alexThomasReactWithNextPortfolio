@@ -83,7 +83,7 @@ export default function Home() {
                    Chess Puzzle Generator
                  </h3>
                 
-                  <Image src={chessPhoto} alt="no image to show" layout="fill" objectFit="cover"/>
+                  <Image src={chessPhoto} alt="no image to show" layout="fill"/>
                   <iframe
                     width="560"
                     height="315"
