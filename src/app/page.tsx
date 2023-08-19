@@ -83,10 +83,10 @@ export default function Home() {
                    Chess Puzzle Generator
                  </h3>
                 
-                  <Image src={chessPhoto} alt="no image to show" layout="fill"/>
+                  <Image src={chessPhoto} alt="no image to show" layout="fill" objectFit="cover"/>
                   <iframe
-                    width="560"
-                    height="315"
+                    width="426"
+                    height="240"
                     src={'https://youtu.be/T_VrPDMSrYM'}
                     title="YouTube video player"
                     frameBorder="0"
