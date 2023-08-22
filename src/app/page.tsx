@@ -6,7 +6,8 @@ import {
   } from "react-icons/ai";
 import Image from "next/image"
 import mePhoto from 'public/AIPhoto.jpg'
-import chessPhoto from 'public/PProjectSS_7:10:23.png'
+import pyPhoto from 'public/py.png'
+import githubPhoto from 'public/githubPhoto.png'
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
     <div>
       <Head>
         <title> Alexander Thomas Portfolio</title>
-        <meta name="desctription" content="Genertated by create next app"/>
+        <meta name="description" content="Genertated by create next app"/>
         <link rel="icon" href="favicon.ico" />
 
       </Head>
@@ -23,13 +24,18 @@ export default function Home() {
       <main className=" bg-black px-10">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className=" text-lg font-burtons">
-              Portfolio Website Developed by Alex Thomas
-            </h1>
+            <ul className=" flex-col items-center">
+              <h1 className=" text-lg font-burtons">
+                Portfolio Website Developed by Alex Thomas
+              </h1>
+              <a href="https://github.com/alexanderthomasucsb/alexThomasReactWithNextPortfolio" target="_blank" rel="noopener noreferrer" className="flex">
+                <Image src={githubPhoto} alt="no image to show" width="50" height="50" />
+                <p className="py-3">&lt;- Link to website code</p>
+              </a>
+              
+
+            </ul>
             <ul className=" flex items-center">
-              <li>
-                <BsFillMoonStarsFill className=" cursor-pointer text-2xl"/>
-              </li>
               <li><a className= " bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href='https://drive.google.com/file/d/1V395_TK3QNNSb1mlQ7oWf0KXeRA3qu5b/view?usp=sharing' target="_blank">Resume</a></li>
             </ul>
           </nav>
@@ -79,23 +85,37 @@ export default function Home() {
           <div>
             <div className="flex flex-col items-center gap-16 py-3">
               <div className="text-center shadow-orange shadow-lg p-10  my-10  flex-1">
-                 <h3 className="text-3xl mb-10">
-                   Chess Puzzle Generator
-                 </h3>
-                
-                  <Image src={chessPhoto} alt="no image to show" width="500" height="500"/>
-                  <iframe
-                    width="426"
-                    height="240"
-                    src={'https://www.youtube.com/embed/T_VrPDMSrYM'}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allowFullScreen
+                <div className = 'p-10'>
+                  <h3 className="text-3xl mb-10">
+                    Chess Puzzle Generator
+                  </h3>
+                    <iframe
+                      width="639"
+                      height="360"
+                      src={'https://www.youtube.com/embed/T_VrPDMSrYM'}
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allowFullScreen
                   ></iframe>
+                </div>
+                <div className="flex-col h-40 w-639 items-center justify-center border-white p-2">
+                  
+                  <div className="flex items-center justify-center">
+                    <p className="px-1">Made with Python using Tkinter with PIL</p>
+                    <Image src={pyPhoto} alt="no image to show" width="50" height="50"/>
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <p className="px-5">Link to project: </p>
+                    <a href="https://github.com/alexanderthomasucsb/chessPuzzle-alexthomas" target="_blank" rel="noopener noreferrer" className="flex">
+                      <Image src={githubPhoto} alt="no image to show" width="50" height="50" />
+                    </a>
+                  </div>
+                 
+                </div>
                
                   
                   
-                </div>
+            </div>
                 <p>
                   Project 2 
                 </p>
